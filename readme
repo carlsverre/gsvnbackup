@@ -1,1 +1,7 @@
 ** Modify .boto before using **
+
+call "ruby gbackup post-commit REPO NEW_REVISION" in your post-commit hook in your svn repo
+
+call "ruby gbackup full REPO" a couple times daily (does a full backup)
+
+*** NOTE: I ACCEPT NO RESPONSIBILITY THROUGH ANY USE OF THIS SOFTWARE.  USE AT OWN RISK. ***
